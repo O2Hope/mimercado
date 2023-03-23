@@ -20,7 +20,7 @@ export const Sidebar = component$(() => {
         <SidebarItem route="/inventory" icon={LuBoxes} name="Inventory" />
         <SidebarItem route="/statistics" icon={LuLineChart} name="Statistics" />
         <li className="mx-0"></li>
-        <li className="menu-title">Utilitses</li>
+        <li className="menu-title">Utilities</li>
         <SidebarItem active route="/" icon={LuBot} name="Price generator" />
 
         <SidebarItem route="/scraper" icon={LuFileSearch} name="Scraper" />

@@ -44,7 +44,7 @@ export default component$(() => {
   });
 
   return (
-    <div class="flex flex-col gap-6 flex-1">
+    <div class="flex flex-col gap-6 flex-1 pb-4">
       <div class="form-control">
         <label class="label">
           <span class="label-text">Product name</span>

@@ -9,8 +9,8 @@ export default component$(() => {
 
   return(
     <>
-      <div class={`modal ${modal.isOpen.value && "modal-open"} pl-[255px] `}>
-        <div class="modal-box w-11/12 max-w-5xl relative">
+      <div class={`modal ${modal.isOpen.value && "modal-open"} `}>
+        <div class="modal-box w-11/12 max-w-5xl">
           <label onClick$={() => modal.isOpen.value = false} class="btn btn-sm btn-circle absolute right-2 top-2">✕</label>
             <PriceGeneratorStats/>
         </div>

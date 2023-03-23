@@ -8,10 +8,10 @@ export interface AvatarProps{
 export default component$(({image, initials}: AvatarProps) => {
   return (
     <div class="avatar placeholder">
-      <div class={`bg-primary text-neutral-content rounded-full ${image ? "w-16" : "w-8"}`}>
+      <div class={`bg-neutral-focus text-neutral-content rounded-full ${image ? "w-16" : "w-8"}`}>
         {image ?
           <img src={image} /> :
-          <span class="text-xs">{initials}</span>
+          <span className="text-xs">{initials}</span>
         }
       </div>
     </div>

@@ -4,12 +4,13 @@ export interface SidebarItemProps {
   name: string;
   icon: Component<{}>;
   route: string;
+  active?: boolean;
 }
 
-export default component$(({ name, icon: Icon, route }: SidebarItemProps) => {
+export default component$(({ name, icon: Icon, route, active }: SidebarItemProps) => {
   return (
     <li>
-      <a href={route}>
+      <a class={`${active && "active"}`} href={route}>
         <Icon/>
         {name}
       </a>

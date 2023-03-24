@@ -45,7 +45,11 @@
   },
   "dependencies": {
     "@qwikest/icons": "^0.0.5",
+    "cheerio": "^1.0.0-rc.12",
     "daisyui": "^2.51.3",
-    "inputmask": "^5.0.8"
+    "inputmask": "^5.0.8",
+    "puppeteer": "^19.7.5",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
